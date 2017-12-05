@@ -182,3 +182,5 @@ def read_data_sets(train_dir, fake_data=False, one_hot=False, dtype=tf.float32):
   data_sets.validation = DataSet(validation_images, validation_labels,
                                  dtype=dtype)
   return data_sets
+
+
